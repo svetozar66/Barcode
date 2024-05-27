@@ -1,0 +1,164 @@
+div.scrollmenu {
+  background-color: #fafafa;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: scroll;
+  display: flex;
+  gap: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.div.scrollmenu::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  font-size: 3vh;
+  background-color: rgb(149, 234, 250);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Images/Untitled1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body .content {
+  height: 85vh;
+  width: 100%;
+}
+body .content {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.content div {
+  width: 100%;
+}
+
+.lineCategory {
+  height: 3px;
+  border-width: 1;
+  color: rgba(128, 128, 128, 0.002);
+  background-color: rgb(12, 2, 162);
+}
+
+.line {
+  border-top: 3px dashed blue;
+}
+
+.Naslov {
+  font-size: 4vh;
+  font-weight: bold;
+  color: #2301ab;
+}
+
+.Items {
+  font-weight: bold;
+  font-size: 2.8vh;
+  font-family: cursive;
+}
+
+.money {
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 2.5vh;
+  padding-top: 0.2vh;
+}
+
+#Kafe,
+#PrirodniSokovi,
+#BezalkoholnaPica,
+#Vode,
+#GaziraniSokovi,
+#EnergetskiNapici,
+#Piva,
+#Tocenopivo,
+#Vodke,
+#Likeri,
+#Tekile,
+#Konjak,
+#Gin,
+#Viski,
+#Piva,
+#Cideri,
+#Rakija,
+#VinaC,
+#VinaF,
+#LetnjiMix,
+#Pizza,
+#Kokteli,
+#Sendvici,
+#NonAlchoholic{
+  width: 100%;
+}
+
+.parentHrana {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.childName {
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: cursive;
+}
+
+.childSize p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 2.4vh;
+  font-family: cursive;
+}
+
+.childCost p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 2.4vh;
+  font-family: cursive;
+  color: #000000;
+}
+
+.Opis p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8vh;
+  font-family: cursive;
+}
+
+.borderClass {
+  border-style: none none dotted none;
+  border-color: blue;
+}
+
+.spanOpis{
+  font-size: 1.6vh;
+}
